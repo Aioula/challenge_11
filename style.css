@@ -64,6 +64,10 @@ input::placeholder{
   border-radius: 10px;
   font-family: Arial, sans-serif;
 }
+.first input{
+  height: 45px ;
+  background:none ;
+}
 .first button{
   height: 90%;
   border: none;
@@ -81,7 +85,8 @@ input::placeholder{
   background-color: #4848B3;
 }
 .first .text{
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 600;
   color: black;
 }
 .first .text:not(:read-only){
